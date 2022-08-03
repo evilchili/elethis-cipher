@@ -4,6 +4,9 @@ version = "0.1.0"
 description = "A tabula recta variant autokey cipher, implementation in python"
 authors = ["evilchili <evilchili@gmail.com>"]
 license = "The Unlicense"
+packages = [
+    { include = 'cipher' }
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"
